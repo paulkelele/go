@@ -5,7 +5,7 @@ import(
 	"github.com/gin-gonic/gin"
 )
 
-// référence https://go.dev/doc/tutorial/web-service-gin
+// site référence: https://go.dev/doc/tutorial/web-service-gin
 
 // creation d'un type album
 type album struct{
