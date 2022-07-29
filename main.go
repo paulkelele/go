@@ -64,6 +64,7 @@ func main(){
 	router.Run("localhost:9090")
 }
 
+// lancer la commande go => < go run .>
 //  curl http://localhost:9090/albums --header "Content-Type: application/json" --request "GET"
 //  curl http://localhost:9090/albums/2 --header "Content-Type: application/json" --request "GET"
 //  curl http://localhost:9090/albums --include --header "Content-Type: application/json" --request "POST" --data '{"id": "4","title":"My title songs","artist":"Jhonny Haaliday","price":56.36}'
