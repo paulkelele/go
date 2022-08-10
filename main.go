@@ -29,7 +29,7 @@ func postAlbums(c *gin.Context){
 	// creation d'une reference newAlbum de type album
 	var newAlbum album
 
-	// appel BinfJSON pour lier le JSON reçu avec newAlbum
+	// appel BindJSON pour lier le JSON reçu avec newAlbum
 	if err:= c.BindJSON(&newAlbum); err != nil{
 		return
 	}
